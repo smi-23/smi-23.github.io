@@ -53,7 +53,17 @@ google_site_verification: MvtCOi8sWmaQfwNQDaAvY3xcmL0eh_xTGKrQzfDEN8g # fill in 
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: UA-269393444-1 # fill in your Google Analytics ID
+
+#   <!-- Google tag (gtag.js) -->
+# <script async src="https://www.googletagmanager.com/gtag/js?id=UA-269393444-1"></script>
+# <script>
+#   window.dataLayer = window.dataLayer || [];
+#   function gtag(){dataLayer.push(arguments);}
+#   gtag('js', new Date());
+
+#   gtag('config', 'UA-269393444-1');
+# </script>
 
 # Prefer color scheme setting.
 #
