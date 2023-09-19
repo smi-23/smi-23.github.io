@@ -55,4 +55,6 @@ MPD를 적절히 조절하여 cpu이용률을 높이면서 스레싱이 발생�
 <!-- ![Alt text](/assets/img/2023-09-19-thrashing/thrashing3.png) -->
 <img src = "/assets/img/2023-09-19-thrashing/thrashing3.png" width="500px;" height="200">
 
-출처 - <a href="https://blog.skby.net/%EC%8A%A4%EB%A0%88%EC%8B%B1-thrashing/"> skyb님 블로그 </a>
+도움받은 블로그 - <a href="https://blog.skby.net/%EC%8A%A4%EB%A0%88%EC%8B%B1-thrashing/"> skyb님 블로그 </a>
+
+gitcus
