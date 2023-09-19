@@ -2406,6 +2406,7 @@ mjx-container {
     margin-bottom: .5rem;
     border-radius: 50%;
     color: var(--sidebar-btn-color);
+    /* 좌측 하단 아이콘 백그라운드 컬러 */
     background-color: var(--sidebar-btn-bg);
     text-align: center;
     display: flex;
@@ -2416,7 +2417,7 @@ mjx-container {
 
 #sidebar .flex-column {
     background-image: url(../img/sidebar/sidecat.jpg);
-    background-size: contain;
+    background-size: 13rem;
     background-position: bottom;
     background-repeat: no-repeat;
 }
