@@ -20,7 +20,7 @@ timezone: Asia/Seoul
 
 title: Smi-23 # the main title
 
-tagline: Devlog # it will display as the sub-title
+tagline: The jungle that smi-23 perceives # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
