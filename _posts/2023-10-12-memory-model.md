@@ -64,6 +64,6 @@ last_modified_at: 2023-10-12
 - 메모리를 관리 필요(변수를 할당하고 해제하는 책임이 있다)
 
  **Reference**<br>
-<a href="https://velog.io/@bibi6666667/CS05-%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B5%AC%EC%A1%B0-CPU-%EA%B0%80%EC%83%81-%EB%A9%94%EB%AA%A8%EB%A6%AC">@bibi6666667</a>
-<a href="https://zangzangs.tistory.com/107">https://zangzangs.tistory.com/107</a>
-<a href="https://velog.io/@cchloe2311/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0">https://velog.io/@cchloe2311/</a>
+<a href="https://velog.io/@bibi6666667/CS05-%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B5%AC%EC%A1%B0-CPU-%EA%B0%80%EC%83%81-%EB%A9%94%EB%AA%A8%EB%A6%AC">@bibi6666667</a><br>
+<a href="https://zangzangs.tistory.com/107">https://zangzangs.tistory.com/107</a><br>
+<a href="https://velog.io/@cchloe2311/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0">https://velog.io/@cchloe2311/</a><br>
