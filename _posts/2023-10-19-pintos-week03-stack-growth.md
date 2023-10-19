@@ -12,29 +12,12 @@ last_modified_at: 2023-10-19
 ---
 # Stack Growth 구현
 
-아래의 코드를 보면 pintos project2에서는 유저 스택이 고정된 크기를 지님
-vm에서 동작하는 케이스가 아닌 경우, setup_stack은 최소 크기의 스택을 생성하는데 이는 0으로 초기화된 페이지를 user_stack으로 할당해주는 방식이었다.
-이제부터 vm에서 동작하는 케이스인 경우 page fault에 의해 스택 크기를 동적으로 할당해줄 것이다.
-```c
-bool
-setup_stack (struct intr_frame *if_) {
-	uint8_t *kpage;
-	bool success = false;
-
-	kpage = palloc_get_page (PAL_USER | PAL_ZERO);
-	if (kpage != NULL) {
-		success = install_page (((uint8_t *) USER_STACK) - PGSIZE, kpage, true);
-		if (success)
-			if_->rsp = USER_STACK;
-		else
-			palloc_free_page (kpage);
-	}
-	return success;
-}
-```
+- project2에선 USER_STACK이 시작인 단일 페이지로 제한
+- project3에선 접근한 가상 주소에 매핑된 frame이 없어서 page fault가 발생한 경우 중에서 접근한 가상 주소가 stack 영역 내에 존재할 경우 추가페이지를 할당
 
 ## vm_try_handle_fault()
 
+### 구현 흐름
 - 현재 스레드의 보조 페이지 테이블을 얻어옵니다.
 - 주어진 주소를 페이지 경계로 반올림하여 정렬합니다.
 - 주어진 주소가 유저 영역 내에 있는지 확인합니다.
@@ -101,3 +84,6 @@ static void vm_stack_growth(void *addr UNUSED) {
   vm_alloc_page(VM_ANON, addr, true);
 }
 ```
+
+ **Reference**<br>
+<a href="https://e-juhee.tistory.com/entry/Pintos-KAIST-Project-3-Memory-Management">https://e-juhee.tistory.com/</a>
