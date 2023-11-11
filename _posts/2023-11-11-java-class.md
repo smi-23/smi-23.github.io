@@ -96,6 +96,60 @@ public class ChildClass extends ParentClass {
 - 여러 클래스가 같은 메서드 이름을 사용하고 있을 때, 이 메서드를 동일한 방식으로 호출할 수 있다.
 - 다형성은 오버로딩(Overloading)과 오버라이딩(Overriding)을 통해 구현
 
+### 8. 오버로딩(Overloading):
+
+한 클래스 내에서 같은 이름의 메서드를 여러 개 정의하는 것.
+메서드의 이름은 동일하지만 매개변수의 개수나 타입이 다를 때 오버로딩이 가능.
+컴파일러가 메서드 호출 시 전달되는 인자의 타입과 개수를 통해 적절한 메서드를 호출함.
+
+```java
+public class Example {
+    // 정수형 덧셈
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // 실수형 덧셈
+    public double add(double a, double b) {
+        return a + b;
+    }
+}
+```
+
+### 9. 오버라이딩(Overriding):
+
+상위 클래스가 가지고 있는 메서드를 하위 클래스에서 재정의하는 것.
+메서드 시그니처(이름, 매개변수, 반환 타입)가 동일해야 함.
+상속 관계에서 자주 사용되며, 다형성(Polymorphism)을 구현하는 핵심 메커니즘 중 하나.
+
+```java
+class Animal {
+    public void makeSound() {
+        System.out.println("Some generic sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("Bark!");
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("Meow!");
+    }
+}
+```
+
+위의 예시에서 Dog와 Cat 클래스가 Animal 클래스의 makeSound 메서드를 오버라이딩함.
+
+### 10. 오버로딩과 오버라이딩의 차이:
+
+오버로딩(Overloading): 같은 클래스 내에서 동일한 이름의 메서드를 정의하되, 매개변수의 개수나 타입이 달라야 함.
+오버라이딩(Overriding): 상속 관계에서 상위 클래스가 가지고 있는 메서드를 하위 클래스에서 재정의하는 것.
 
 클래스는 객체지향 프로그래밍에서 코드의 재사용성, 유지보수성, 코드 구조화 등을 위해 중요한 개념 중 하나로, 클래스를 통해 현실 세계의 객체를 모델링하고 이를 기반으로 프로그램을 작성할 수 있다.
 
