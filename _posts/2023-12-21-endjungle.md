@@ -1,5 +1,5 @@
 ---
-title: "정글 마무리 회고"
+title: "정글 수료"
 excerpt: ""
 categories:
     - Blog
@@ -10,5 +10,5 @@ toc_sticky: true
 date: 2023-12-21
 last_modified_at: 2023-12-21
 ---
-# 정글 마무리 회고
+# 정글 수료
 막상 쓰려니까 잘 안써진다.... 집에 가서 세팅 다 하고 써야겠습니다. 
