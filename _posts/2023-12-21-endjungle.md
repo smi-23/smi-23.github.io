@@ -8,7 +8,7 @@ tags:
 toc : true
 toc_sticky: true
 date: 2023-12-21
-last_modified_at: 2023-12-21
+last_modified_at: 2024-01-07
 ---
 # 정글 수료
 막상 쓰려니까 잘 안써진다.... 집에 가서 세팅 다 하고 써야겠습니다. 
