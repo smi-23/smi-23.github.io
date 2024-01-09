@@ -10,6 +10,8 @@ toc_sticky: true
 date: 2024-01-09
 last_modified_at: 2024-01-09
 ---
+# 스택, 큐
+
 ## 스택(Stack)이란?
 
 - 후입선출(Last In First Out - LIFO)
