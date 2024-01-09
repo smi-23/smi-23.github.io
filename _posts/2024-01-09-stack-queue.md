@@ -153,3 +153,8 @@ last_modified_at: 2024-01-09
 4. **데이터 역추적**
     - 어떤 데이터의 변경 이력을 추적할 때, 변경된 데이터를 스택에 기록하는 방식으로 사용할 수 있음
     - 이를 통해 특정 시점의 데이터 상태로 되돌아갈 수 있음
+
+
+**Reference**<br>
+<a href="https://juyeop.tistory.com">https://juyeop.tistory.com</a>
+<a href="https://dev-coco.tistory.com">https://dev-coco.tistory.com</a>
