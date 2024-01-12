@@ -1,5 +1,5 @@
 ---
-title: "[Interview] Array, ArrayList, Linked List"
+title: "[Interview] Array, ArrayList, Linked List의 차이"
 excerpt: ""
 categories:
     - Interview
